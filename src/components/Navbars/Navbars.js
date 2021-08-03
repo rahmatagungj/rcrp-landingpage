@@ -52,7 +52,6 @@ const Navbars = () => {
                 LOGIN
                 </button>
             </li>
-
           </ul>
         </div>
       </div>
