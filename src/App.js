@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import Navbar from './components/Navbars/Navbars';
+import Navbars from './components/Navbars/Navbars';
 import Donasi from "./pages/Donasi/Donasi";
 import Forum from "./pages/Forum/Forum";
 import Home from "./pages/Home/Home";
@@ -13,7 +13,7 @@ function App() {
   return (
     <Router>
       <Switch>
-        <Navbar/>
+        <Navbars/>
         <Route path="/" exact component={Home} />
         <Route path="/Forum" exact component={Forum} />
         <Route path="/Donasi" exact component={Donasi} />
