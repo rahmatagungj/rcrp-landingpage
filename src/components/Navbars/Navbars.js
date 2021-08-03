@@ -1,4 +1,5 @@
 import React from "react";
+import Logo from "./../../images/logo.png"
 
 const Navbars = () => {
   return(
@@ -7,7 +8,7 @@ const Navbars = () => {
         <div className="w-full relative flex justify-between lg:w-auto  px-4 lg:static lg:block lg:justify-start">
           <div className="flex flex-wrap justify-center">
             <div className="w-9 mr-1">
-              <img alt="..." src= 'https://www.upload.ee/image/13362312/logo.png' className="shadow rounded-full max-w-full h-auto align-middle border-none" />
+              <img alt="..." src={Logo} className="shadow rounded-full max-w-full h-auto align-middle border-none" />
             </div>
               <a className="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-white" href="#pablo">
               Republic City
@@ -47,7 +48,7 @@ const Navbars = () => {
             </li>
 
             <li className="nav-item">
-              <button class="text-white bg-transparent border border-solid border-green-800 hover:bg-green-800 hover:text-white active:bg-green-800 font-bold uppercase text-xs px-4 py-2 rounded outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" type="button" href="/Login">
+              <button class="text-white bg-green-800 hover:bg-white hover:text-green-800 active:bg-green-800 font-bold uppercase text-xs px-4 py-2 rounded outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" type="button" href="/Login">
                 LOGIN
                 </button>
             </li>
