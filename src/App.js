@@ -1,11 +1,11 @@
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import Navbar from './components/Navbars';
+import Navbar from './components/Navbars/Navbars';
 import Donasi from "./pages/Donasi/Donasi";
 import Forum from "./pages/Forum/Forum";
 import Home from "./pages/Home/Home";
 import Login from "./pages/Login/Login";
 import Status from "./pages/Status/Status";
-import Statistic from "./pages/Statistic";
+import Statistic from "./pages/Statistik/Statistik";
 import Register from "./pages/Login/Register";
 
 
