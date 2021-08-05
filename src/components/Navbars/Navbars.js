@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Logo from "./../../images/logo.png"
 
 const Navbars = () => {
@@ -10,7 +11,7 @@ const Navbars = () => {
             <div className="w-9 mr-1">
               <img alt="..." src={Logo} className="shadow rounded-full max-w-full h-auto align-middle border-none" />
             </div>
-              <a className="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-white" href="#pablo">
+              <a className="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-white">
               Republic City
               </a>
           </div>
@@ -18,39 +19,39 @@ const Navbars = () => {
         <div className="lg:flex flex-grow items-center" id="example-navbar-warning">
           <ul className="flex flex-col lg:flex-row list-none ml-auto">
             <li className="nav-item">
-              <a className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:text-green-800" href="/Home">
+              <Link to="/Home" className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:text-green-800">
                 Beranda
-              </a>
+              </Link>
             </li>
 
             <li className="nav-item">
-              <a className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:text-green-800" href="/Forum">
+              <Link to="/Forum" className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:text-green-800">
                 Forum
-              </a>
+              </Link>
             </li>
 
             <li className="nav-item">
-              <a className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:text-green-800" href="/Donasi">
+              <Link to="/Donasi" className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:text-green-800">
                 Donasi
-              </a>
+              </Link>
             </li>
 
             <li className="nav-item">
-              <a className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:text-green-800" href="/Status">
+              <Link to="/Status" className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:text-green-800">
                 Status
-              </a>
+              </Link>
             </li>
 
             <li className="nav-item">
-              <a className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:text-green-800" href="/Statistik">
+              <Link to="/Statistik" className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:text-green-800">
                 Statistik
-              </a>
+              </Link>
             </li>
 
             <li className="nav-item">
-              <a class="text-white bg-green-800 hover:bg-white hover:text-green-800 active:bg-green-800 font-bold uppercase text-xs px-4 py-2 rounded outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" type="button" href="/Login">
+              < Link to="/Login" class="text-white bg-green-800 hover:bg-white hover:text-green-800 active:bg-green-800 font-bold uppercase text-xs px-4 py-2 rounded outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" type="button">
                 LOGIN
-                </a>
+                </Link>
             </li>
           </ul>
         </div>
