@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function Login() {
   return (
@@ -47,23 +48,23 @@ export default function Login() {
                       </div>
 
                       <div className="text-center mt-6">
-                        <button className="bg-gray-900 text-white active:bg-gray-700 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 w-full" type="button" style={{ transition: "all .15s ease" }}>
+                        <Link to="/Home" className="bg-gray-900 text-white active:bg-gray-700 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 w-full" type="button" style={{ transition: "all .15s ease" }}>
                           Login
-                        </button>
+                        </Link>
                       </div>
                     </form>
                   </div>
                 </div>
                 <div className="flex flex-wrap mt-6">
                   <div className="w-1/2">
-                    <a href="#" onClick={e => e.preventDefault()} className="text-gray-300">
+                    <Link to="/Home" onClick={e => e.preventDefault()} className="text-gray-300">
                       <small>Lupa Password?</small>
-                    </a>
+                    </Link>
                   </div>
                   <div className="w-1/2 text-right">
-                    <a href="#" onClick={e => e.preventDefault()} className="text-gray-300">
+                    <Link to="/Home" onClick={e => e.preventDefault()} className="text-gray-300">
                       <small>Buat Akun Baru!</small>
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
