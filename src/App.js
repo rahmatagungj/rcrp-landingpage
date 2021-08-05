@@ -4,6 +4,7 @@ import Donasi from "./pages/Donasi/Donasi";
 import Forum from "./pages/Forum/Forum";
 import Home from "./pages/Home/Home";
 import Login from "./pages/Login/Login";
+import Dashboard from "./pages/Dashboard/Dashboard";
 import Status from "./pages/Status/Status";
 import Statistic from "./pages/Statistik/Statistik";
 import Register from "./pages/Login/Register";
@@ -22,6 +23,7 @@ function App() {
           <Route path="/statistic" exact component={Statistic} />
           <Route path="/Login" exact component={Login} />
           <Route path="/Register" exact component={Register} />
+          <Route path="/Dashboard" exact component={Dashboard} />
         </Switch>
       </main>
     </Router>
