@@ -25,32 +25,32 @@ const Navbars = () => {
             </li>
 
             <li className="nav-item">
-              <Link to="/Forum" className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:text-green-800">
+              <Link to="/forum" className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:text-green-800">
                 Forum
               </Link>
             </li>
 
             <li className="nav-item">
-              <Link to="/Donasi" className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:text-green-800">
+              <Link to="/donasi" className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:text-green-800">
                 Donasi
               </Link>
             </li>
 
             <li className="nav-item">
-              <Link to="/Status" className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:text-green-800">
+              <Link to="/status" className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:text-green-800">
                 Status
               </Link>
             </li>
 
             <li className="nav-item">
-              <Link to="/Statistik" className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:text-green-800">
+              <Link to="/statistik" className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:text-green-800">
                 Statistik
               </Link>
             </li>
 
             <li className="nav-item">
               <Link
-                to="/Masuk"
+                to="/masuk"
                 class="text-white bg-green-800 hover:bg-white hover:text-green-800 active:bg-green-800 font-bold uppercase text-xs px-4 py-2 rounded outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
                 type="button"
               >
@@ -59,7 +59,7 @@ const Navbars = () => {
             </li>
 
             <li className="nav-item">
-              <Link to="/Daftar" class="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:text-green-800" type="button">
+              <Link to="/daftar" class="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:text-green-800" type="button">
                 Daftar
               </Link>
             </li>

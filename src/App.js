@@ -15,12 +15,12 @@ function App() {
       <main>
         <Switch>
           <Route path="/" exact component={Home} />
-          <Route path="/Forum" exact component={Forum} />
-          <Route path="/Donasi" exact component={Donasi} />
-          <Route path="/Status" exact component={Status} />
-          <Route path="/Statistik" exact component={Statistic} />
-          <Route path="/Masuk" exact component={Login} />
-          <Route path="/Daftar" exact component={Register} />
+          <Route path="/forum" exact component={Forum} />
+          <Route path="/donasi" exact component={Donasi} />
+          <Route path="/status" exact component={Status} />
+          <Route path="/statistik" exact component={Statistic} />
+          <Route path="/masuk" exact component={Login} />
+          <Route path="/daftar" exact component={Register} />
         </Switch>
       </main>
     </Router>
