@@ -50,11 +50,17 @@ const Navbars = () => {
 
             <li className="nav-item">
               <Link
-                to="/Login"
+                to="/Masuk"
                 class="text-white bg-green-800 hover:bg-white hover:text-green-800 active:bg-green-800 font-bold uppercase text-xs px-4 py-2 rounded outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
                 type="button"
               >
-                LOGIN
+                Masuk
+              </Link>
+            </li>
+
+            <li className="nav-item">
+              <Link to="/Daftar" class="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:text-green-800" type="button">
+                Daftar
               </Link>
             </li>
           </ul>
