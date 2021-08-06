@@ -18,7 +18,7 @@ function App() {
           <Route path="/Forum" exact component={Forum} />
           <Route path="/Donasi" exact component={Donasi} />
           <Route path="/Status" exact component={Status} />
-          <Route path="/statistic" exact component={Statistic} />
+          <Route path="/Statistik" exact component={Statistic} />
           <Route path="/Login" exact component={Login} />
           <Route path="/Register" exact component={Register} />
         </Switch>
