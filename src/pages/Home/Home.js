@@ -107,6 +107,7 @@ function Home() {
             <div class="flex flex-wrap -m-4">
               <div class="p-2 xl:w-1/4 md:w-1/2 w-full">
                 <div class="h-full p-6 rounded-lg border-2 border-gray-300 flex flex-col relative overflow-hidden">
+                  <span class="bg-gray-500 text-white px-3 py-1 tracking-widest text-xs absolute right-0 top-0 rounded-bl">MINIMUM</span>
                   <h2 class="text-sm tracking-widest title-font mb-1 font-medium">START</h2>
                   <h1 class="text-5xl text-gray-900 pb-4 mb-4 border-b border-gray-200 leading-none">Free</h1>
                   <p class="flex items-center text-gray-600 mb-2">
@@ -115,7 +116,7 @@ function Home() {
                         <path d="M20 6L9 17l-5-5"></path>
                       </svg>
                     </span>
-                    Vexillologist pitchfork
+                    Windows 7
                   </p>
                   <p class="flex items-center text-gray-600 mb-2">
                     <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
@@ -123,7 +124,39 @@ function Home() {
                         <path d="M20 6L9 17l-5-5"></path>
                       </svg>
                     </span>
-                    Tumeric plaid portland
+                    Intel Pentium 4 or AMD Athlon XP
+                  </p>
+                  <p class="flex items-center text-gray-600 mb-2">
+                    <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+                      <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                        <path d="M20 6L9 17l-5-5"></path>
+                      </svg>
+                    </span>
+                    1 GB RAM
+                  </p>
+                  <p class="flex items-center text-gray-600 mb-2">
+                    <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+                      <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                        <path d="M20 6L9 17l-5-5"></path>
+                      </svg>
+                    </span>
+                    Clean installation of Grand Theft Auto: San Andreas
+                  </p>
+                  <p class="flex items-center text-gray-600 mb-2">
+                    <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+                      <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                        <path d="M20 6L9 17l-5-5"></path>
+                      </svg>
+                    </span>
+                    3.7 GB of free hard disk space
+                  </p>
+                  <p class="flex items-center text-gray-600 mb-2">
+                    <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+                      <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                        <path d="M20 6L9 17l-5-5"></path>
+                      </svg>
+                    </span>
+                    Nvidia GeForce 4 series
                   </p>
                   <p class="flex items-center text-gray-600 mb-6">
                     <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
@@ -131,13 +164,13 @@ function Home() {
                         <path d="M20 6L9 17l-5-5"></path>
                       </svg>
                     </span>
-                    Mixtape chillwave tumeric
+                    DirectX 9.0 compatible sound card
                   </p>
                 </div>
               </div>
               <div class="p-2 xl:w-1/4 md:w-1/2 w-full">
                 <div class="h-full p-6 rounded-lg border-2 border-green-500 flex flex-col relative overflow-hidden">
-                  <span class="bg-green-500 text-white px-3 py-1 tracking-widest text-xs absolute right-0 top-0 rounded-bl">POPULAR</span>
+                  <span class="bg-green-500 text-white px-3 py-1 tracking-widest text-xs absolute right-0 top-0 rounded-bl">REKOMENDASI</span>
                   <h2 class="text-sm tracking-widest title-font mb-1 font-medium">PRO</h2>
                   <h1 class="text-5xl text-gray-900 leading-none flex items-center pb-4 mb-4 border-b border-gray-200">
                     <span>$38</span>
@@ -149,7 +182,7 @@ function Home() {
                         <path d="M20 6L9 17l-5-5"></path>
                       </svg>
                     </span>
-                    Vexillologist pitchfork
+                    Windows 10
                   </p>
                   <p class="flex items-center text-gray-600 mb-2">
                     <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
@@ -157,7 +190,7 @@ function Home() {
                         <path d="M20 6L9 17l-5-5"></path>
                       </svg>
                     </span>
-                    Tumeric plaid portland
+                    Intel Core 2 Duo Processor or AMD equivalent
                   </p>
                   <p class="flex items-center text-gray-600 mb-2">
                     <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
@@ -165,7 +198,31 @@ function Home() {
                         <path d="M20 6L9 17l-5-5"></path>
                       </svg>
                     </span>
-                    Hexagon neutra unicorn
+                    2 GB RAM
+                  </p>
+                  <p class="flex items-center text-gray-600 mb-2">
+                    <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+                      <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                        <path d="M20 6L9 17l-5-5"></path>
+                      </svg>
+                    </span>
+                    Clean installation of Grand Theft Auto: San Andreas
+                  </p>
+                  <p class="flex items-center text-gray-600 mb-2">
+                    <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+                      <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                        <path d="M20 6L9 17l-5-5"></path>
+                      </svg>
+                    </span>
+                    5 GB of free hard disk space
+                  </p>
+                  <p class="flex items-center text-gray-600 mb-2">
+                    <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+                      <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                        <path d="M20 6L9 17l-5-5"></path>
+                      </svg>
+                    </span>
+                    Nvidia GeForce FX series or higher
                   </p>
                   <p class="flex items-center text-gray-600 mb-6">
                     <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
@@ -173,7 +230,7 @@ function Home() {
                         <path d="M20 6L9 17l-5-5"></path>
                       </svg>
                     </span>
-                    Mixtape chillwave tumeric
+                    DirectX 9.0 compatible sound card
                   </p>
                 </div>
               </div>
