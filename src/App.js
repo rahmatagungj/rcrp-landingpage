@@ -19,8 +19,8 @@ function App() {
           <Route path="/Donasi" exact component={Donasi} />
           <Route path="/Status" exact component={Status} />
           <Route path="/Statistik" exact component={Statistic} />
-          <Route path="/Login" exact component={Login} />
-          <Route path="/Register" exact component={Register} />
+          <Route path="/Masuk" exact component={Login} />
+          <Route path="/Daftar" exact component={Register} />
         </Switch>
       </main>
     </Router>
