@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import Navbars from "./components/Navbars/Navbars";
+import Navbars from "./components/Navbars";
 import Donasi from "./pages/Donasi/Donasi";
 import Forum from "./pages/Forum/Forum";
 import Home from "./pages/Home/Home";
