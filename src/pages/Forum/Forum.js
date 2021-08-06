@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "../../components/Footer";
 import Seo from "../../components/Seo";
 
 function Forum() {
@@ -9,6 +10,7 @@ function Forum() {
     <>
       <Seo title={"Forum | Republic City"} />
       <RenderForum />
+      <Footer />
     </>
   );
 }

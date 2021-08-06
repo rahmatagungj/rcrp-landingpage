@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "../../components/Footer";
 import Seo from "../../components/Seo";
 
 function Status() {
@@ -9,6 +10,7 @@ function Status() {
     <>
       <Seo title={"Status | Republic City"} />
       <RenderStatus />
+      <Footer />
     </>
   );
 }
