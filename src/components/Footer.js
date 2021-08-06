@@ -11,7 +11,7 @@ function Footer() {
               {/* <img class="shadow rounded-full max-w-full h-auto align-middle border-none" alt="hero" src={Logo} /> */}
               <span class="ml-3 text-xl">Republic City</span>
             </a>
-            <p class="mt-2 text-sm text-gray-500">Buat Cerita Menarik Sesuai Yang Kamu Mau!</p>
+            {/* <p class="mt-2 text-sm text-gray-500">Buat Cerita Menarik Sesuai Yang Kamu Mau!</p> */}
           </div>
           <div class="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
             <div class="lg:w-1/4 md:w-1/2 w-full px-4">
