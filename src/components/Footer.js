@@ -8,7 +8,7 @@ function Footer() {
         <div class="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
           <div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
             <a class="flex title-font font-medium items-center md:justify-start justify-center text-white">
-              <img class="shadow rounded-full max-w-full h-auto align-middle border-none" alt="hero" src={Logo} />
+              {/* <img class="shadow rounded-full max-w-full h-auto align-middle border-none" alt="hero" src={Logo} /> */}
               <span class="ml-3 text-xl">Republic City</span>
             </a>
             <p class="mt-2 text-sm text-gray-500">Buat Cerita Menarik Sesuai Yang Kamu Mau!</p>
