@@ -244,7 +244,7 @@ function Home() {
 
   return (
     <>
-      <Seo title={"Ayo main Roleplay! | Republic City"} />
+      <Seo />
       <RenderHero />
       <Footer />
     </>
