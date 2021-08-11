@@ -19,7 +19,7 @@ function Home() {
                 <br className="hidden lg:inline-block" />
                 Sesuai Yang Kamu Mau
               </h1>
-              <p className="mb-8 leading-relaxed text-justify">Buat cerita tentang hal-hal apapun yang kamu inginkan mulai dari percintaan, mencari teman, hingga bekerja sesuai cita-cita kamu!</p>
+              <p className="mb-8 leading-relaxed text-base text-justify">Buat cerita tentang hal-hal apapun yang kamu inginkan mulai dari percintaan, mencari teman, hingga bekerja sesuai cita-cita kamu!</p>
               <div className="flex justify-center">
                 <button className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded-full text-lg">Yuk Mulai!</button>
                 <button className="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded-full text-lg">Discord</button>
@@ -107,7 +107,7 @@ function Home() {
                 <div className="h-full p-6 rounded-lg border-2 border-gray-300 flex flex-col relative overflow-hidden">
                   <span className="bg-gray-500 text-white px-3 py-1 tracking-widest text-xs absolute right-0 top-0 rounded-bl">MINIMUM</span>
                   <h2 className="text-sm tracking-widest title-font mb-1 font-medium">SPEK</h2>
-                  <h1 className="text-4xl font-medium text-black pb-4 mb-4 border-b border-gray-200 leading-none">MINIMALIS</h1>
+                  <h1 className="text-4xl font-medium text-black pb-4 mb-4 border-b border-gray-200 leading-none">HEMAT</h1>
                   <p className="flex items-center text-gray-600 mb-2">
                     <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
                       <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" className="w-3 h-3" viewBox="0 0 24 24">
@@ -171,7 +171,7 @@ function Home() {
                   <span className="bg-green-500 text-white px-3 py-1 tracking-widest text-xs absolute right-0 top-0 rounded-bl">REKOMENDASI</span>
                   <h2 className="text-sm tracking-widest title-font mb-1 font-medium">SPEK</h2>
                   <h1 className="text-5xl text-gray-900 leading-none flex items-center pb-4 mb-4 border-b border-gray-200">
-                    <span className="text-4xl font-semibold">DEWA</span>
+                    <span className="text-4xl font-semibold">SULTAN</span>
                   </h1>
                   <p className="flex items-center text-gray-600 mb-2">
                     <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
