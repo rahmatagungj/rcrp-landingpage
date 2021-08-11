@@ -10,7 +10,7 @@ const Navbars = () => {
       <div className="bg-green-500 fixed left-0 right-0 top-0 z-50 shadow-lg">
         <div className="px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
           <div className="relative flex items-center justify-between">
-            <div className="w-full relative flex justify-between lg:w-auto  px-4 lg:static lg:block lg:justify-start">
+            <div className="w-full relative flex justify-between lg:w-auto px-4 lg:static lg:block lg:justify-start">
               <div className="flex flex-wrap justify-center">
                 <div className="w-9 mr-1">
                   <img alt="..." src={Logo} className="shadow rounded-full max-w-full h-auto align-middle border-none" />
@@ -119,6 +119,22 @@ const Navbars = () => {
                         <li>
                           <Link to="/statistik" className="font-medium tracking-wide text-white transition-colors duration-200 hover:text-primary-focus">
                             Statistik
+                          </Link>
+                        </li>
+                        <li>
+                          <Link
+                            to="/masuk"
+                            className="inline-flex items-center justify-center w-full h-10 px-6 font-medium tracking-wide text-white transition duration-200 rounded-full shadow-md bg-green-700 hover:bg-accent-focus focus:shadow-outline focus:outline-none"
+                          >
+                            Masuk
+                          </Link>
+                        </li>
+                        <li>
+                          <Link
+                            to="/daftar"
+                            className="inline-flex items-center justify-center w-full h-10 px-6 font-medium tracking-wide text-white transition duration-200 rounded-full shadow-md bg-yellow-500 hover:bg-accent-focus focus:shadow-outline focus:outline-none"
+                          >
+                            Daftar
                           </Link>
                         </li>
                       </ul>
