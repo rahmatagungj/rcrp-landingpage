@@ -27,7 +27,7 @@ function Home() {
                     </h1>
                     <p className="mb-8 leading-relaxed text-white text-justify">Buat cerita tentang hal-hal apapun yang kamu inginkan mulai dari percintaan, mencari teman, hingga bekerja sesuai cita-cita kamu!</p>
                     <div className="flex justify-center">
-                      <Link to="/daftar" className="inline-flex font-semibold text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded-full text-md md:text-sm">
+                      <Link to="/daftar" className="inline-flex font-semibold text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded-full text-md">
                         Yuk Mulai!
                       </Link>
                       <button className="ml-4 inline-flex font-semibold text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded-full text-md">Discord</button>
@@ -36,7 +36,7 @@ function Home() {
                 </div>
               }
               {
-                <svg className="-mt-40" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <svg className="-mt-36" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
                   <path
                     fill="#ffffff"
                     fill-opacity="1"
@@ -58,7 +58,7 @@ function Home() {
             <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
               <div className="p-2 sm:w-1/2 w-full">
                 <div className="bg-gray-100 rounded flex p-4 h-full items-center">
-                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" className="text-green-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+                  <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" className="text-green-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
                     <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
                     <path d="M22 4L12 14.01l-3-3"></path>
                   </svg>
@@ -67,7 +67,7 @@ function Home() {
               </div>
               <div className="p-2 sm:w-1/2 w-full">
                 <div className="bg-gray-100 rounded flex p-4 h-full items-center">
-                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" className="text-green-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+                  <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" className="text-green-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
                     <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
                     <path d="M22 4L12 14.01l-3-3"></path>
                   </svg>
@@ -76,7 +76,7 @@ function Home() {
               </div>
               <div className="p-2 sm:w-1/2 w-full">
                 <div className="bg-gray-100 rounded flex p-4 h-full items-center">
-                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" className="text-green-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+                  <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" className="text-green-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
                     <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
                     <path d="M22 4L12 14.01l-3-3"></path>
                   </svg>
@@ -85,7 +85,7 @@ function Home() {
               </div>
               <div className="p-2 sm:w-1/2 w-full">
                 <div className="bg-gray-100 rounded flex p-4 h-full items-center">
-                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" className="text-green-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+                  <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" className="text-green-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
                     <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
                     <path d="M22 4L12 14.01l-3-3"></path>
                   </svg>
@@ -94,7 +94,7 @@ function Home() {
               </div>
               <div className="p-2 sm:w-1/2 w-full">
                 <div className="bg-gray-100 rounded flex p-4 h-full items-center">
-                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" className="text-green-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+                  <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" className="text-green-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
                     <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
                     <path d="M22 4L12 14.01l-3-3"></path>
                   </svg>
@@ -103,7 +103,7 @@ function Home() {
               </div>
               <div className="p-2 sm:w-1/2 w-full">
                 <div className="bg-gray-100 rounded flex p-4 h-full items-center">
-                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" className="text-green-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+                  <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" className="text-green-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
                     <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
                     <path d="M22 4L12 14.01l-3-3"></path>
                   </svg>
@@ -123,14 +123,14 @@ function Home() {
               <p className="lg:w-2/3 mx-auto leading-relaxed text-base text-gray-500 text-lg">Berikut adalah spesifikasi yang dibutuhkan.</p>
             </div>
             <div className="flex items-center justify-center flex-wrap -m-4">
-              <div className="p-2 xl:w-1/4 md:w-1/2 w-full">
+              <div className="p-3 lg:w-2/3 md:w-1/2 w-full">
                 <div className="h-full p-6 rounded-lg border-2 border-gray-300 flex flex-col relative overflow-hidden">
                   <span className="bg-gray-500 text-white px-3 py-1 tracking-widest text-xs absolute right-0 top-0 rounded-bl">MINIMUM</span>
                   <h2 className="text-sm tracking-widest title-font mb-1 font-medium">PAKET</h2>
                   <h1 className="text-4xl font-medium text-black pb-4 mb-4 border-b border-gray-200 leading-none">HEMAT</h1>
                   <p className="flex items-center text-gray-600 mb-2">
                     <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
-                      <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" className="w-3 h-3" viewBox="0 0 24 24">
+                      <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" className="w-3 h-3" viewBox="0 0 24 24">
                         <path d="M20 6L9 17l-5-5"></path>
                       </svg>
                     </span>
@@ -138,7 +138,7 @@ function Home() {
                   </p>
                   <p className="flex items-center text-gray-600 mb-2">
                     <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
-                      <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" className="w-3 h-3" viewBox="0 0 24 24">
+                      <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" className="w-3 h-3" viewBox="0 0 24 24">
                         <path d="M20 6L9 17l-5-5"></path>
                       </svg>
                     </span>
@@ -146,7 +146,7 @@ function Home() {
                   </p>
                   <p className="flex items-center text-gray-600 mb-2">
                     <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
-                      <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" className="w-3 h-3" viewBox="0 0 24 24">
+                      <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" className="w-3 h-3" viewBox="0 0 24 24">
                         <path d="M20 6L9 17l-5-5"></path>
                       </svg>
                     </span>
@@ -154,7 +154,7 @@ function Home() {
                   </p>
                   <p className="flex items-center text-gray-600 mb-2">
                     <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
-                      <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" className="w-3 h-3" viewBox="0 0 24 24">
+                      <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" className="w-3 h-3" viewBox="0 0 24 24">
                         <path d="M20 6L9 17l-5-5"></path>
                       </svg>
                     </span>
@@ -162,7 +162,7 @@ function Home() {
                   </p>
                   <p className="flex items-center text-gray-600 mb-2">
                     <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
-                      <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" className="w-3 h-3" viewBox="0 0 24 24">
+                      <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" className="w-3 h-3" viewBox="0 0 24 24">
                         <path d="M20 6L9 17l-5-5"></path>
                       </svg>
                     </span>
@@ -170,7 +170,7 @@ function Home() {
                   </p>
                   <p className="flex items-center text-gray-600 mb-2">
                     <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
-                      <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" className="w-3 h-3" viewBox="0 0 24 24">
+                      <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" className="w-3 h-3" viewBox="0 0 24 24">
                         <path d="M20 6L9 17l-5-5"></path>
                       </svg>
                     </span>
@@ -178,7 +178,7 @@ function Home() {
                   </p>
                   <p className="flex items-center text-gray-600 mb-6">
                     <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
-                      <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" className="w-3 h-3" viewBox="0 0 24 24">
+                      <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" className="w-3 h-3" viewBox="0 0 24 24">
                         <path d="M20 6L9 17l-5-5"></path>
                       </svg>
                     </span>
@@ -186,7 +186,7 @@ function Home() {
                   </p>
                 </div>
               </div>
-              <div className="p-2 xl:w-1/4 md:w-1/2 w-full">
+              <div className="p-2 lg:w-2/3 md:w-1/2 w-full">
                 <div className="h-full p-6 rounded-lg border-2 border-green-500 flex flex-col relative overflow-hidden">
                   <span className="bg-green-500 text-white px-3 py-1 tracking-widest text-xs absolute right-0 top-0 rounded-bl">REKOMENDASI</span>
                   <h2 className="text-sm tracking-widest title-font mb-1 font-medium">PAKET</h2>
@@ -195,7 +195,7 @@ function Home() {
                   </h1>
                   <p className="flex items-center text-gray-600 mb-2">
                     <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
-                      <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" className="w-3 h-3" viewBox="0 0 24 24">
+                      <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" className="w-3 h-3" viewBox="0 0 24 24">
                         <path d="M20 6L9 17l-5-5"></path>
                       </svg>
                     </span>
@@ -203,7 +203,7 @@ function Home() {
                   </p>
                   <p className="flex items-center text-gray-600 mb-2">
                     <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
-                      <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" className="w-3 h-3" viewBox="0 0 24 24">
+                      <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" className="w-3 h-3" viewBox="0 0 24 24">
                         <path d="M20 6L9 17l-5-5"></path>
                       </svg>
                     </span>
@@ -211,7 +211,7 @@ function Home() {
                   </p>
                   <p className="flex items-center text-gray-600 mb-2">
                     <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
-                      <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" className="w-3 h-3" viewBox="0 0 24 24">
+                      <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" className="w-3 h-3" viewBox="0 0 24 24">
                         <path d="M20 6L9 17l-5-5"></path>
                       </svg>
                     </span>
@@ -219,7 +219,7 @@ function Home() {
                   </p>
                   <p className="flex items-center text-gray-600 mb-2">
                     <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
-                      <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" className="w-3 h-3" viewBox="0 0 24 24">
+                      <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" className="w-3 h-3" viewBox="0 0 24 24">
                         <path d="M20 6L9 17l-5-5"></path>
                       </svg>
                     </span>
@@ -227,7 +227,7 @@ function Home() {
                   </p>
                   <p className="flex items-center text-gray-600 mb-2">
                     <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
-                      <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" className="w-3 h-3" viewBox="0 0 24 24">
+                      <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" className="w-3 h-3" viewBox="0 0 24 24">
                         <path d="M20 6L9 17l-5-5"></path>
                       </svg>
                     </span>
@@ -235,7 +235,7 @@ function Home() {
                   </p>
                   <p className="flex items-center text-gray-600 mb-2">
                     <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
-                      <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" className="w-3 h-3" viewBox="0 0 24 24">
+                      <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" className="w-3 h-3" viewBox="0 0 24 24">
                         <path d="M20 6L9 17l-5-5"></path>
                       </svg>
                     </span>
@@ -243,7 +243,7 @@ function Home() {
                   </p>
                   <p className="flex items-center text-gray-600 mb-6">
                     <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
-                      <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" className="w-3 h-3" viewBox="0 0 24 24">
+                      <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" className="w-3 h-3" viewBox="0 0 24 24">
                         <path d="M20 6L9 17l-5-5"></path>
                       </svg>
                     </span>
