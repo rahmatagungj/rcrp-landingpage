@@ -3,32 +3,50 @@ import { Link } from "react-router-dom";
 import Footer from "../../components/Footer";
 import Seo from "../../components/Seo";
 import Logo from "./../../images/logo.png";
+import Hero from "./../../images/home.jpg";
 
 function Home() {
   const RenderHero = () => {
     return (
       <React.Fragment>
-        <section className="text-gray-600 body-font">
-          <div className="container mx-auto flex px-28 py-24 md:flex-row flex-col items-center">
-            <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
-              <img className="object-cover object-center rounded" alt="hero" src={Logo} />
-            </div>
-            <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
-              <h1 className="title-font sm:text-4xl text-3xl mb-4 font-bold font-sans text-black">
-                Buat Cerita Menarik
-                <br className="hidden lg:inline-block" />
-                Sesuai Yang Kamu Mau
-              </h1>
-              <p className="mb-8 leading-relaxed text-base text-justify">Buat cerita tentang hal-hal apapun yang kamu inginkan mulai dari percintaan, mencari teman, hingga bekerja sesuai cita-cita kamu!</p>
-              <div className="flex justify-center">
-                <Link to="/daftar" className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded-full text-lg">
-                  Yuk Mulai!
-                </Link>
-                <button className="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded-full text-lg">Discord</button>
-              </div>
-            </div>
+        <div className="relative">
+          <img src={Hero} className="absolute inset-0 object-cover w-full h-full" alt="bg-private" />
+          <div className="relative bg-green-900 bg-opacity-80">
+            <section class="relative">
+              {" "}
+              {
+                <div className="container mx-auto flex px-28 py-24 md:flex-row flex-col items-center">
+                  <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
+                    <img className="object-cover object-center rounded" alt="hero" src={Logo} />
+                  </div>
+                  <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+                    <h1 className="title-font sm:text-4xl text-3xl mb-4 font-bold font-sans text-white">
+                      Buat Cerita Menarik
+                      <br className="hidden lg:inline-block" />
+                      Sesuai Yang Kamu Mau
+                    </h1>
+                    <p className="mb-8 leading-relaxed text-white text-justify">Buat cerita tentang hal-hal apapun yang kamu inginkan mulai dari percintaan, mencari teman, hingga bekerja sesuai cita-cita kamu!</p>
+                    <div className="flex justify-center">
+                      <Link to="/daftar" className="inline-flex font-semibold text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded-full text-lg">
+                        Yuk Mulai!
+                      </Link>
+                      <button className="ml-4 inline-flex font-semibold text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded-full text-lg">Discord</button>
+                    </div>
+                  </div>
+                </div>
+              }
+              {
+                <svg className="-mt-40" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                  <path
+                    fill="#ffffff"
+                    fill-opacity="1"
+                    d="M0,192L80,170.7C160,149,320,107,480,117.3C640,128,800,192,960,202.7C1120,213,1280,171,1360,149.3L1440,128L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"
+                  ></path>
+                </svg>
+              }
+            </section>
           </div>
-        </section>
+        </div>
 
         {/* Featured */}
         <section className="text-gray-600 body-font">
