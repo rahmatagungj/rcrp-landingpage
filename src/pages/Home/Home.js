@@ -12,7 +12,7 @@ function Home() {
         <div className="relative">
           <img src={Hero} className="absolute inset-0 object-cover w-full h-full" alt="bg-private" />
           <div className="relative bg-green-900 bg-opacity-80">
-            <section class="relative">
+            <section className="relative">
               {" "}
               {
                 <div className="container mx-auto flex px-28 py-24 md:flex-row flex-col items-center">
@@ -39,7 +39,7 @@ function Home() {
                 <svg className="-mt-36" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
                   <path
                     fill="#ffffff"
-                    fill-opacity="1"
+                    fillOpacity="1"
                     d="M0,192L80,170.7C160,149,320,107,480,117.3C640,128,800,192,960,202.7C1120,213,1280,171,1360,149.3L1440,128L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"
                   ></path>
                 </svg>
