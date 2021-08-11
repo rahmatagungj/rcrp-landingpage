@@ -27,10 +27,10 @@ function Home() {
                     </h1>
                     <p className="mb-8 leading-relaxed text-white text-justify">Buat cerita tentang hal-hal apapun yang kamu inginkan mulai dari percintaan, mencari teman, hingga bekerja sesuai cita-cita kamu!</p>
                     <div className="flex justify-center">
-                      <Link to="/daftar" className="inline-flex font-semibold text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded-full text-lg">
+                      <Link to="/daftar" className="inline-flex font-semibold text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded-full text-md md:text-sm">
                         Yuk Mulai!
                       </Link>
-                      <button className="ml-4 inline-flex font-semibold text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded-full text-lg">Discord</button>
+                      <button className="ml-4 inline-flex font-semibold text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded-full text-md">Discord</button>
                     </div>
                   </div>
                 </div>
