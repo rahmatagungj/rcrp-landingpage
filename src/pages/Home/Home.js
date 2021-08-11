@@ -42,7 +42,7 @@ function Home() {
                     <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
                     <path d="M22 4L12 14.01l-3-3"></path>
                   </svg>
-                  <span className="title-font font-medium">Authentic Cliche Forage</span>
+                  <span className="title-font font-medium">Voice Chat</span>
                 </div>
               </div>
               <div className="p-2 sm:w-1/2 w-full">
@@ -51,7 +51,7 @@ function Home() {
                     <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
                     <path d="M22 4L12 14.01l-3-3"></path>
                   </svg>
-                  <span className="title-font font-medium">Kinfolk Chips Snackwave</span>
+                  <span className="title-font font-medium">1352 Member Discord</span>
                 </div>
               </div>
               <div className="p-2 sm:w-1/2 w-full">
@@ -60,7 +60,7 @@ function Home() {
                     <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
                     <path d="M22 4L12 14.01l-3-3"></path>
                   </svg>
-                  <span className="title-font font-medium">Coloring Book Ethical</span>
+                  <span className="title-font font-medium">Member Ramah</span>
                 </div>
               </div>
               <div className="p-2 sm:w-1/2 w-full">
@@ -69,7 +69,7 @@ function Home() {
                     <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
                     <path d="M22 4L12 14.01l-3-3"></path>
                   </svg>
-                  <span className="title-font font-medium">Typewriter Polaroid Cray</span>
+                  <span className="title-font font-medium">Admin Ramah</span>
                 </div>
               </div>
               <div className="p-2 sm:w-1/2 w-full">
@@ -78,7 +78,7 @@ function Home() {
                     <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
                     <path d="M22 4L12 14.01l-3-3"></path>
                   </svg>
-                  <span className="title-font font-medium">Pack Truffaut Blue</span>
+                  <span className="title-font font-medium">Ekonomi Mudah</span>
                 </div>
               </div>
               <div className="p-2 sm:w-1/2 w-full">
@@ -87,7 +87,7 @@ function Home() {
                     <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
                     <path d="M22 4L12 14.01l-3-3"></path>
                   </svg>
-                  <span className="title-font font-medium">The Catcher In The Rye</span>
+                  <span className="title-font font-medium">FPS Lancar</span>
                 </div>
               </div>
             </div>
