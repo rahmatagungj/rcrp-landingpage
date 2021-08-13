@@ -3,7 +3,9 @@ import React from "react";
 
 const Register = () => {
   return(
-    <div>Daftar Akun</div>
+    <div>
+      <p>aaa</p>
+    </div>
     ) 
 };
 
