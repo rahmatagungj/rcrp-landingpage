@@ -82,6 +82,7 @@ function Home() {
             </div>
           </div>
         </section>
+        {/* About end */}
 
 
         {/* Featured */}

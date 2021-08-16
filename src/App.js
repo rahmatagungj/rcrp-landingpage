@@ -22,6 +22,7 @@ function App() {
           <Route path="/statistik" exact component={Statistic} />
           <Route path="/masuk" exact component={Login} />
           <Route path="/daftar" exact component={Register} />
+          <Route path="/Dashboard" exact component={Dashboard} />
         </Switch>
       </main>
     </Router>

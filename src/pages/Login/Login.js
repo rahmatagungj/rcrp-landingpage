@@ -8,7 +8,7 @@ export default function Login() {
       <Seo title={"Masuk | Republic City"} />
       <main>
         <section className="absolute w-full h-full">
-          <div className="absolute top-0 w-full h-full bg-gray-900" style={{ backgroundImage: "url(" + require("./../../images/walp.jpg").default + ")", backgroundSize: "100%", backgroundRepeat: "no-repeat"}}>
+          <div className="absolute top-0 w-full h-full bg-gray-900" style={{ backgroundImage: "url(" + require("./../../images/walp.png").default + ")", backgroundSize: "100%", backgroundRepeat: "no-repeat"}}>
           </div>
 
           <div className="container mx-auto px-4 h-full">
@@ -58,8 +58,8 @@ export default function Login() {
                       </div>
                       <div>
                         <label className="inline-flex items-center cursor-pointer">
-                          <input id="customCheckLogin" type="checkbox" className="form-checkbox border-0 rounded text-green-800 ml-1 w-5 h-5" style={{ transition: "all .15s ease" }}/>
-                          <span className="ml-2 text-sm font-semibold text-black-900">
+                          <input id="customCheckLogin" type="checkbox" className="form-checkbox border-0 rounded text-black ml-1 w-5 h-5" style={{ transition: "all .15s ease" }}/>
+                          <span className="ml-2 text-sm font-semibold text-black">
                             Ingat saya
                           </span>
                         </label>
@@ -68,7 +68,7 @@ export default function Login() {
                       <div className="text-center mt-6">
                         <Link
                           to="/Home"
-                          className="bg-gray-900 text-white active:bg-gray-700 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 w-full"
+                          className="bg-green-500 text-white hover:text-black active:bg-gray-700 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 w-full"
                           type="button"
                           style={{ transition: "all .15s ease" }}
                         >
