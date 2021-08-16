@@ -37,8 +37,8 @@ const Navbars = () => {
                 </Link>
               </li>
               <li>
-                <Link to="/status" className="flex items-center text-sm uppercase font-medium leading-snug text-white hover:text-green-800">
-                  Status
+                <Link to="/Rules" className="flex items-center text-sm uppercase font-medium leading-snug text-white hover:text-green-800">
+                  Peraturan
                 </Link>
               </li>
               <li>

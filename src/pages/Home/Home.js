@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import Footer from "../../components/Footer";
 import Seo from "../../components/Seo";
 import Logo from "./../../images/logo.png";
+import BannerLogo from './../../images/bannerLogo.png'
 import Hero from "./../../images/home.jpg";
 
 function Home() {
@@ -17,7 +18,7 @@ function Home() {
               {" "}
               {
                 <div className="container mx-auto flex px-28 py-24 md:flex-row flex-col items-center">
-                  <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
+                  <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:p-16 md:mb-0">
                     <img className="object-cover object-center rounded" alt="hero" src={Logo} />
                   </div>
                   <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
@@ -49,6 +50,40 @@ function Home() {
           </div>
         </div>
 
+
+        {/* About */}
+        <section class="min-h-screen py-6 flex flex-col justify-center sm:py-12">
+          <div class="relative py-3 sm:max-w-xl sm:mx-auto">
+            <div class="absolute inset-0 bg-gradient-to-r from-green-400 to-green-500 shadow-lg transform -skew-y-6 sm:skew-y-0 sm:-rotate-6 sm:rounded-3xl"></div>
+            <div class="relative px-4 py-10 bg-green-100 shadow-lg sm:rounded-3xl sm:p-20">
+              <div class="max-w-md mx-auto">
+                <div>
+                  <img src={BannerLogo} class="h-7 sm:h-8"/>
+                </div>
+                <div class="divide-y divide-gray-200">
+                  <div class="py-8 text-base leading-6 space-y-4 text-black sm:text-lg sm:leading-7">
+                    <p>
+                    Merupakan Komunitas Game Online dari MTA (Multi Theft Auto Modifikasi Server) yang 
+                    memiliki basic Indonesia Culture untuk bermain peran. Republic City merupakan Server 
+                    Roleplay, dengan aturan main seperti kehidupan sehari-hari (real life). kamu sendiri 
+                    dapat menentukan peran kamu akan menjadi apa didalam server.
+                    </p>
+                    
+                    
+                  </div>
+                  <div class="pt-6 text-base leading-6 font-bold sm:text-lg sm:leading-7">
+                    <p>Ayo bergabung bersama Republic City</p>
+                    <p>
+                      <Link to="/" class="text-green-500 hover:text-green-900"> JOIN &rarr; </Link>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+
         {/* Featured */}
         <section className="text-gray-600 body-font">
           <div className="container px-5 py-24 mx-auto">
@@ -56,62 +91,93 @@ function Home() {
               <h1 className="sm:text-3xl text-2xl font-bold text-center title-font text-gray-900 mb-4">Mengapa Harus Kami?</h1>
               <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-lg">Karena kami memiliki beberapa hal yang dapat diunggulkan</p>
             </div>
-            <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
-              <div className="p-2 sm:w-1/2 w-full">
-                <div className="bg-gray-100 rounded flex p-4 h-full items-center">
-                  <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" className="text-green-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
-                    <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
-                    <path d="M22 4L12 14.01l-3-3"></path>
-                  </svg>
-                  <span className="title-font font-medium">Voice Chat</span>
-                </div>
+            <div class="flex flex-wrap my-12 dark:text-white">
+              <div class="w-full border-b md:w-1/2 md:border-r lg:w-1/3 p-8">
+                  <div class="flex items-center mb-6">
+                      <svg width="20" height="20" fill="currentColor" class="h-6 w-6 text-indigo-500" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M491 1536l91-91-235-235-91 91v107h128v128h107zm523-928q0-22-22-22-10 0-17 7l-542 542q-7 7-7 17 0 22 22 22 10 0 17-7l542-542q7-7 7-17zm-54-192l416 416-832 832h-416v-416zm683 96q0 53-37 90l-166 166-416-416 166-165q36-38 90-38 53 0 91 38l235 234q37 39 37 91z">
+                          </path>
+                      </svg>
+                      <div class="ml-4 text-xl">
+                          Voice Chat
+                      </div>
+                  </div>
+                  <p class="leading-loose text-gray-500 dark:text-gray-200 text-md">
+                      Adanya Fitur Voice Chat didalam InGame memberikan kesan dalam bermain lebih nyata.
+                  </p>
               </div>
-              <div className="p-2 sm:w-1/2 w-full">
-                <div className="bg-gray-100 rounded flex p-4 h-full items-center">
-                  <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" className="text-green-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
-                    <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
-                    <path d="M22 4L12 14.01l-3-3"></path>
-                  </svg>
-                  <span className="title-font font-medium">1352 Member Discord</span>
-                </div>
+              <div class="w-full border-b md:w-1/2 lg:w-1/3 lg:border-r p-8">
+                  <div class="flex items-center mb-6">
+                      <svg width="20" height="20" fill="currentColor" class="h-6 w-6 text-indigo-500" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M491 1536l91-91-235-235-91 91v107h128v128h107zm523-928q0-22-22-22-10 0-17 7l-542 542q-7 7-7 17 0 22 22 22 10 0 17-7l542-542q7-7 7-17zm-54-192l416 416-832 832h-416v-416zm683 96q0 53-37 90l-166 166-416-416 166-165q36-38 90-38 53 0 91 38l235 234q37 39 37 91z">
+                          </path>
+                      </svg>
+                      <div class="ml-4 text-xl">
+                          Indonesia Culture
+                      </div>
+                  </div>
+                  <p class="leading-loose text-gray-500 dark:text-gray-200 text-md">
+                      Budaya Indonesia dijadikan basic dalam bermain peran agar Roleplay yang dijalankan mudah menyesuaikan 
+                      dan lebih maksimal sesuai dengan kehidupan nyata. 
+                  </p>
               </div>
-              <div className="p-2 sm:w-1/2 w-full">
-                <div className="bg-gray-100 rounded flex p-4 h-full items-center">
-                  <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" className="text-green-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
-                    <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
-                    <path d="M22 4L12 14.01l-3-3"></path>
-                  </svg>
-                  <span className="title-font font-medium">Member Ramah</span>
-                </div>
+              <div class="w-full border-b md:w-1/2 md:border-r lg:w-1/3 lg:border-r-0 p-8">
+                  <div class="flex items-center mb-6">
+                      <svg width="20" height="20" fill="currentColor" class="h-6 w-6 text-indigo-500" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M491 1536l91-91-235-235-91 91v107h128v128h107zm523-928q0-22-22-22-10 0-17 7l-542 542q-7 7-7 17 0 22 22 22 10 0 17-7l542-542q7-7 7-17zm-54-192l416 416-832 832h-416v-416zm683 96q0 53-37 90l-166 166-416-416 166-165q36-38 90-38 53 0 91 38l235 234q37 39 37 91z">
+                          </path>
+                      </svg>
+                      <div class="ml-4 text-xl">
+                          Feature yang menarik
+                      </div>
+                  </div>
+                  <p class="leading-loose text-gray-500 dark:text-gray-200 text-md">
+                      Segala Feature yang ada dalam server "out of the box" dan menjadi daya tarik untuk bermain peran.
+                  </p>
               </div>
-              <div className="p-2 sm:w-1/2 w-full">
-                <div className="bg-gray-100 rounded flex p-4 h-full items-center">
-                  <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" className="text-green-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
-                    <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
-                    <path d="M22 4L12 14.01l-3-3"></path>
-                  </svg>
-                  <span className="title-font font-medium">Admin Ramah</span>
-                </div>
+              <div class="w-full border-b md:w-1/2 lg:w-1/3 lg:border-r lg:border-b-0 p-8">
+                  <div class="flex items-center mb-6">
+                      <svg width="20" height="20" fill="currentColor" class="h-6 w-6 text-indigo-500" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M491 1536l91-91-235-235-91 91v107h128v128h107zm523-928q0-22-22-22-10 0-17 7l-542 542q-7 7-7 17 0 22 22 22 10 0 17-7l542-542q7-7 7-17zm-54-192l416 416-832 832h-416v-416zm683 96q0 53-37 90l-166 166-416-416 166-165q36-38 90-38 53 0 91 38l235 234q37 39 37 91z">
+                          </path>
+                      </svg>
+                      <div class="ml-4 text-xl">
+                          Respect
+                      </div>
+                  </div>
+                  <p class="leading-loose text-gray-500 dark:text-gray-200 text-md">
+                  Memiliki Rasa Hormat dan Rasa peduli terhadap sesama players.
+                  </p>
               </div>
-              <div className="p-2 sm:w-1/2 w-full">
-                <div className="bg-gray-100 rounded flex p-4 h-full items-center">
-                  <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" className="text-green-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
-                    <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
-                    <path d="M22 4L12 14.01l-3-3"></path>
-                  </svg>
-                  <span className="title-font font-medium">Ekonomi Mudah</span>
-                </div>
+              <div class="w-full border-b md:w-1/2 md:border-r md:border-b-0 lg:w-1/3 lg:border-b-0 p-8">
+                  <div class="flex items-center mb-6">
+                      <svg width="20" height="20" fill="currentColor" class="h-6 w-6 text-indigo-500" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M491 1536l91-91-235-235-91 91v107h128v128h107zm523-928q0-22-22-22-10 0-17 7l-542 542q-7 7-7 17 0 22 22 22 10 0 17-7l542-542q7-7 7-17zm-54-192l416 416-832 832h-416v-416zm683 96q0 53-37 90l-166 166-416-416 166-165q36-38 90-38 53 0 91 38l235 234q37 39 37 91z">
+                          </path>
+                      </svg>
+                      <div class="ml-4 text-xl">
+                        Sosialisasi
+                      </div>
+                  </div>
+                  <p class="leading-loose text-gray-500 dark:text-gray-200 text-md">
+                    Bertemu sengan siapapun membangun kelompak dan menjadi lawan/teman dalam peran roleplay.
+                  </p>
               </div>
-              <div className="p-2 sm:w-1/2 w-full">
-                <div className="bg-gray-100 rounded flex p-4 h-full items-center">
-                  <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" className="text-green-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
-                    <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
-                    <path d="M22 4L12 14.01l-3-3"></path>
-                  </svg>
-                  <span className="title-font font-medium">FPS Lancar</span>
-                </div>
+              <div class="w-full md:w-1/2 lg:w-1/3 p-8">
+                  <div class="flex items-center mb-6">
+                      <svg width="20" height="20" fill="currentColor" class="h-6 w-6 text-indigo-500" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M491 1536l91-91-235-235-91 91v107h128v128h107zm523-928q0-22-22-22-10 0-17 7l-542 542q-7 7-7 17 0 22 22 22 10 0 17-7l542-542q7-7 7-17zm-54-192l416 416-832 832h-416v-416zm683 96q0 53-37 90l-166 166-416-416 166-165q36-38 90-38 53 0 91 38l235 234q37 39 37 91z">
+                          </path>
+                      </svg>
+                      <div class="ml-4 text-xl">
+                        Height FPS & Low Ping
+                      </div>
+                  </div>
+                  <p class="leading-loose text-gray-500 dark:text-gray-200 text-md">
+                    Pengoptimalan Resource membuat FPS lebih tinggi. Memiliki PING yang rendah dan stabil
+                  </p>
               </div>
-            </div>
+          </div>
           </div>
         </section>
         {/* featured end */}
