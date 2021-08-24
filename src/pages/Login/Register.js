@@ -8,6 +8,7 @@ const Register = () => {
       <div>Daftar Akun</div>
     </>
   );
+
 };
 
 export default Register;
